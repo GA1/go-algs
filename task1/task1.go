@@ -1,6 +1,6 @@
 package task1
 
-func SolveTask1(A []int) int {
+func Solution(A []int) int {
 	var min = A[0]
 	var bestProfit = A[1] - A[0]
 	for i := 2; i < len(A); i++ {

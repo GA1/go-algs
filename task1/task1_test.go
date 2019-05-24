@@ -28,7 +28,7 @@ func TestSolveTask1(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		result := SolveTask1(test.input)
+		result := Solution(test.input)
 		if result != test.expected {
 			t.Errorf("Solution is incorrect, got: %d, expected: %d", result, test.expected)
 		}
